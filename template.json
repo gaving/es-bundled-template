@@ -1,0 +1,16 @@
+{
+  "template" : "test*",
+  "mappings": {
+    "test": {
+      "properties": {
+        "host_name": {
+          "type": "keyword"
+        },
+        "created_at": {
+          "type": "date",
+          "format": "EEE MMM dd HH:mm:ss Z YYYY"
+        }
+      }
+    }
+  }
+}
